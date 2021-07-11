@@ -1,3 +1,5 @@
+# includes alts from offl solns from previous working soln
+
 class Song
 
   attr_accessor :name, :artist
@@ -13,8 +15,12 @@ class Song
     @@all
   end
 
-  def artist_name
+  def artist_name_0
     self.artist ? self.artist.name : nil
+  end
+
+  def artist_name
+    artist.name if artist
   end
 
 end

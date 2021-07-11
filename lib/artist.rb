@@ -1,4 +1,4 @@
-# require 'pry'
+# Crafted with some help from the official solution
 
 class Artist
 
@@ -31,4 +31,3 @@ class Artist
 
 end
 
-# binding.pry
